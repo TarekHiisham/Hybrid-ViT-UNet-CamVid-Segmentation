@@ -8,8 +8,8 @@ so weights are only read from disk once per session.
 import os
 import streamlit as st
 
-CUSTOM_WEIGHTS_DIR    = "weights/custom"
-PRETRAINED_WEIGHTS_DIR = "weights/pretrained"
+CUSTOM_WEIGHTS_DIR    = "AutoScene/weights/custom"
+PRETRAINED_WEIGHTS_DIR = "AutoScene/weights/pretrained"
 
 
 def list_weight_files(directory: str) -> list[str]:
