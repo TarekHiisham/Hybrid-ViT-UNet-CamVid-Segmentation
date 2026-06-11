@@ -28,6 +28,3 @@ def show():
 
     with col3:
         st.info("### Class Legend\nExplore all 32 CamVid classes and their assigned colors.")
-
-    st.markdown("---")
-    st.markdown("**Getting started** → place your `.pth` weight files in `weights/custom/` or `weights/pretrained/`, then choose a page from the sidebar.")

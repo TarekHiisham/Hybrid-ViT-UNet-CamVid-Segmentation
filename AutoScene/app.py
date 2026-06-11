@@ -31,15 +31,6 @@ page = st.sidebar.radio(
 )
 
 st.sidebar.divider()
-st.sidebar.markdown(
-    """
-    **Model Weights**  
-    Place your `.pth` files in:
-    - `weights/custom/` → ViT-UNet  
-    - `weights/pretrained/` → ResNet-34 U-Net
-    """
-)
-
 # ── Page routing ───────────────────────────────────────────────────────────
 if page == "🏠 Home":
     from page_modules import home
